@@ -1,76 +1,53 @@
 * {
     padding: 0;
     margin: 0;
+    line-height:1.35;
 }
 
 html { 
     scroll-behavior: smooth;
 }
 
-h1 { 
-    color: white;
+h1 {
+    font-size: 5em;
+    font-family: 'Frank Ruhl Libre', ;
 }
 
-section {
-    display:inline-block;
-    height: 95vh;
+.grid-container {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
     width: 100vw;
-    /* padding: 4em;   */
-    font-family: 'Playfair Display', serif;
-    text-align: center; 
+    grid-template-areas:  
+        "header"
+        "main"
+        "main"
+        "footer";
 }
 
-footer {
-    display:inline-block;
+.header {
+    grid-area: header;
+    background-color: #0057ff;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+.main {
+    grid-area: main;
+    color: #000000;
+    height: 50vh;
+    border: 1px solid green;
+}
+
+.item3 {
+    background-color: blue;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center; 
+    background-color: #f6f6f6;
     height: 30vh;
-    width: 100vw;
-    font-family: 'Playfair Display', serif;
-    text-align: center; 
-    
 }
-
-#container_1 {
-    background-color: #E0BBE4;
-}
-
-#container_2 {
-    background-color: #957DAD;
-}
-
-#container_3 {
-    background-color: #D291BC;
-    
-}
-
-#container_4 {
-    background-color: #FEC8D8;
-}
-
-#container_5 {
-    background-color: #FFDFD3;
-}
-
-.button {
-    background-color: inherit;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 3em;
-  }
-
-  .button2 {
-    color: #ffffff; 
-    border: 2px solid #ffffff;
-  }
-  
-  .button2:hover {
-    background-color: #ffffff;
-    color: inherit;
-  }
