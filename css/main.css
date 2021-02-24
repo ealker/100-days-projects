@@ -94,8 +94,7 @@ footer {
   }
 
   .project-fractal {
-    background-image: url("https://cdn.pixabay.com/photo/2015/10/09/14/30/mandelbrot-set-979309_1280.jpg");
-    background-position: center; 
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
   }
   
   .project-graphics {
