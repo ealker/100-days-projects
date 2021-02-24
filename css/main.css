@@ -73,14 +73,17 @@ footer {
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
   }
   
+  .project-fractal {
+    background: linear-gradient(90deg, #FFFF00 0%, #00FF00 100%);
+  }
+  
   .project-space {
     background-image: url("https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
     background-position: center; 
   }
 
   .project-mp {
-    background-image: url("https://cdn.pixabay.com/photo/2014/11/13/23/34/london-530055_1280.jpg");
-    background-position: center; 
+    background: linear-gradient(90deg, #00FF80 0%, #0000FF 100%);
   }
 
   .project-gallery {
@@ -94,7 +97,7 @@ footer {
   }
 
   .project-fractal {
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    background: linear-gradient(90deg, #FF0000 0%, #FF8000 100%);
   }
   
   .project-graphics {
