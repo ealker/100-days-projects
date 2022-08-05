@@ -1,2 +1,3 @@
-# [alker.xyz](https://www.alker.xyz/)
+# 100-days-projects 
+
 Web projects built for the 100 Days of Code challenge.
